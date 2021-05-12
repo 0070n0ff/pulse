@@ -1,15 +1,19 @@
 from django.contrib import admin
-from .models import DevObjPCInt,DevObjSWInt,Place,DevObjPC,DevObjSW,NetObj,Network,Company
+from .models import NetPCInt,NetSWInt,Customer,RegGate,IPAddr,PC,SW,DevType,MyModel,Network
+
 # Register your models here.
 
-admin.site.register(DevObjPCInt)
-admin.site.register(DevObjSWInt)
-admin.site.register(Place)
-admin.site.register(DevObjPC)
-admin.site.register(DevObjSW)
-admin.site.register(NetObj)
 admin.site.register(Network)
-admin.site.register(Company)
+admin.site.register(NetSWInt)
+admin.site.register(NetPCInt)
+admin.site.register(Customer)
+admin.site.register(RegGate)
+admin.site.register(IPAddr)
+admin.site.register(PC)
+admin.site.register(SW)
+admin.site.register(DevType)
+
+
 
 
 
